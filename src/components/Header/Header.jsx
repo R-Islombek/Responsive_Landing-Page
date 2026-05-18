@@ -109,7 +109,6 @@ const Header = () => {
                 </div>
             </header>
 
-            {/* Mobile Menu Modal */}
             <div className={`mobile-menu ${isMenuOpen ? 'mobile-menu--open' : ''}`}>
                 <div className='mobile-menu__header'>
                     <a href="/" onClick={closeMenu}>
@@ -153,7 +152,6 @@ const Header = () => {
                 </div>
             </div>
             
-            {/* Overlay */}
             <div 
                 className={`mobile-overlay ${isMenuOpen ? 'mobile-overlay--open' : ''}`} 
                 onClick={closeMenu}

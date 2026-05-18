@@ -9,5 +9,12 @@
         "link7": "Schedule",
         "link8": "Promotions",
         "link9": "Shop"
+    },
+    "hero": {
+        "title": "Free Webinar",
+        "text": "COSMETOLOGIST PROFESSION",
+        "desc": "We invite you to a free webinar for professional cosmetologists and those interested in this profession",
+        "btn": "Register",
+        "btn1": "Learn More"
     }
 }

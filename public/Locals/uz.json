@@ -9,5 +9,12 @@
         "link7": "Dars jadvali",
         "link8": "Aksiyalar",
         "link9": "Do'kon"
+    },
+    "hero": {
+        "title": "Bepul vebinar",
+        "text": "KOSMETOLOG KASBI",
+        "desc": "Professional kosmetologlar va ushbu kasbga qiziquvchilar uchun bepul vebinarga taklif qilamiz",
+        "btn": "Ro'yxatdan o'tish",
+        "btn1": "Batafsil ma'lumot"
     }
 }

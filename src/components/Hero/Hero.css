@@ -1,0 +1,169 @@
+
+.hero {
+    margin-top: 120px;
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+.hero__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px; 
+}
+
+.hero__box {
+    flex: 1;
+    max-width: 650px;
+}
+
+.hero__title {
+     font-family: "Montserrat", sans-serif;
+     font-weight: 600;
+     font-size: 20px;
+     line-height: 1.3;
+     color: #424242;
+     margin-bottom: 15px;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+}
+
+.hero__bolt-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 1.15;
+    color: #55A630;
+    margin-bottom: 20px;
+}
+
+.hero__desc {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #64748b; 
+    margin-bottom: 35px;
+}
+
+.hero__actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.hero__btn, .hero__btn-name {
+    padding: 14px 40px; 
+    background: #55A630;
+    color: #fff;
+    border: 2px solid #55A630;
+    border-radius: 8px; 
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    flex: 1; 
+    max-width: 250px;
+}
+
+
+.hero__btn-name {
+    background: transparent;
+    color: #55A630;
+}
+
+.hero__btn:hover {
+    background: #408024;
+    border-color: #408024;
+    transform: translateY(-2px);
+}
+
+.hero__btn-name:hover {
+    background: #55A630;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+/* Rasm qismi */
+.hero__image-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero__img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+
+@media screen and (max-width: 992px) {
+    .hero {
+        margin-top: 90px; 
+    }
+    
+    .hero__bolt-title {
+        font-size: 42px; 
+    }
+    
+    .hero__desc {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero__container {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .hero__box {
+        max-width: 100%;
+    }
+
+    .hero__image-wrapper {
+        justify-content: center;
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .hero__bolt-title {
+        font-size: 36px;
+    }
+
+    .hero__actions {
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .hero {
+        margin-top: 80px;
+    }
+
+    .hero__title {
+        font-size: 16px;
+    }
+
+    .hero__bolt-title {
+        font-size: 28px; 
+    }
+
+    .hero__actions {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .hero__btn, .hero__btn-name {
+        max-width: 100%;
+        width: 100%;
+    }
+}
