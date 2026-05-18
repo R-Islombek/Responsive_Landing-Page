@@ -1,0 +1,29 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 10px 10px 10px rgb(241, 238, 238);
+}
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__list{
+    display: flex;
+    gap: 30px;
+}
+
+.header__link{
+    color: #55A630;
+}
+.header__select{
+    background: transparent;
+    border: none;
+}
+.header__hr{
+    background: #55A63080;
+    height: 2px;
+    border: none;
+}
