@@ -3,6 +3,7 @@
     margin-top: 120px;
     padding: 40px 0;
     overflow: hidden;
+    background: #56c03327;
 }
 
 .hero__container {
@@ -87,7 +88,6 @@
     transform: translateY(-2px);
 }
 
-/* Rasm qismi */
 .hero__image-wrapper {
     flex: 1;
     display: flex;
