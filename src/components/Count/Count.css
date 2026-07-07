@@ -1,10 +1,9 @@
-/* Stats bo'limi */
+
 .stats {
     padding: 80px 0;
     background-color: #ffffff;
 }
 
-/* Ro'yxatni grid yordamida joylash */
 .stats__list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -13,8 +12,6 @@
     padding: 0;
     margin: 0;
 }
-
-/* Har bir karta uslubi */
 .stats__item {
     text-align: center;
     padding: 40px 20px;
@@ -24,14 +21,12 @@
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-/* Hover effekti */
 .stats__item:hover {
     transform: translateY(-15px);
     border-color: transparent;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
 }
 
-/* Raqamlar (gradient rang bilan) */
 .stats__value {
     font-size: 42px;
     font-weight: 800;
@@ -43,7 +38,6 @@
     background-clip: text;
 }
 
-/* Ajratuvchi chiziqcha */
 .stats__divider {
     width: 40px;
     height: 3px;
@@ -52,7 +46,6 @@
     border-radius: 2px;
 }
 
-/* Matn uslubi */
 .stats__text {
     font-size: 15px;
     color: #666;

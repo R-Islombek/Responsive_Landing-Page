@@ -22,5 +22,15 @@
         "item2": { "value": "3500+", "text": "Models in our base" },
         "item3": { "value": "1500+", "text": "Specialists trained" },
         "item4": { "value": "500+", "text": "Happy clients" }
-    }
+    },
+    "card": {
+    "title": "Course for medical professionals",
+    "text": "Cannula techniques",
+    "btn": "Offline",
+    "bold": "May 1 - 4",
+    "text1": "Short description. Something about the course. A few facts. Short description.",
+    "text3": "2 out of 15 spots left",
+    "btn1": "Register",
+    "link1": "Learn more"
+  }
 }

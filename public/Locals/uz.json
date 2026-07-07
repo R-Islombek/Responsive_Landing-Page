@@ -22,5 +22,15 @@
         "item2": { "value": "3500+", "text": "Bazadagi modellar" },
         "item3": { "value": "1500+", "text": "O'qitilgan mutaxassislar" },
         "item4": { "value": "500+", "text": "Mamnun mijozlar" }
-    }
+    },
+  "card": {
+    "title": "Tibbiyot xodimlari uchun kurs",
+    "text": "Kanyul texnikalari",
+    "btn": "Oflayn",
+    "bold": "1-4 may",
+    "text1": "Kurs haqida qisqacha ma'lumot. Kurs haqida bir nechta faktlar. Qisqacha tavsif",
+    "text3": "15 ta joydan 2 tasi bo'sh",
+    "btn1": "Ro'yxatdan o'tish",
+    "link1": "Batafsil"
+  }
 }
