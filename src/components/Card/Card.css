@@ -1,8 +1,9 @@
+/* 1 */
+
 .swiper-button-next,
 .swiper-button-prev {
     color: #000; 
 }
-
 .swiper-pagination-bullet {
     background: #ccc;
     opacity: 1;
@@ -51,9 +52,7 @@
     letter-spacing: -0.4px;
     color: #4340B4;
     margin-bottom: 15px;
-
 }
-
 .card-btn {
     background: #4a4fb8;
     padding: 5px 35px;
@@ -111,7 +110,6 @@
     border: none;
     border-radius: 0;
 }
-
 .card-link {
     display: block;
     text-align: center;
