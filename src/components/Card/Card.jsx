@@ -33,13 +33,12 @@ const Card = () => {
                                 <h3 className='card-title'>{t("card.title")}</h3>
                                 <p className='card-text'>{t("card.text")}</p>
                                 <button className='card-btn'>{t("card.btn")}</button>
-                                
+                                <p className='card-text-name'>{t("card.bold")}</p>
                                 <div className="inner-box">
                                     <p className='inner-text'>{t("card.text1")}</p>
                                     <img src={girls} alt="girls" />
                                 </div>
                                 
-                                <p className='card-text-name'>{t("card.bold")}</p>
                                 <p className='card-text-name'>{t("card.text3")}</p>
                                 <button className='card-btns'>{t("card.btn1")}</button>
                                 <a className='card-link' href="#">{t("card.link1")}</a>
